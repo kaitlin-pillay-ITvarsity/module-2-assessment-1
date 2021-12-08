@@ -59,14 +59,13 @@ body{
 #footer a{
     float:left;
     display:block;
-    width:27%;
+    width:50%;
     height:35px;
     font-weight:700;
     color:orange;
     text-align: center;
     text-decoration: none;
-    padding-left:45px;
-    margin:20px;
+    margin:20px 0;
 }
 /*=====MAIN=======*/
 #main{
