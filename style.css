@@ -3,6 +3,7 @@ body{
     margin:0;
     font-family: sans-serif;
 }
+/*====HEADER=====*/
 #header{
     position: fixed;
     top:0px;
@@ -19,7 +20,7 @@ body{
     height: 70%;
     padding-top:15px;
 }
-/*===top-tab===*/
+/*===TOP-TABS===*/
 #top-tab{
     position: fixed;
     top: 80px;
@@ -40,9 +41,11 @@ body{
     text-decoration: none;
     padding: 12px;
 }
+/*====MAP=====*/
 #map{
     margin-top: 110px;
 }
+/*======FOOTER=======*/
 #footer{
     position:fixed;
     bottom:0px;
@@ -55,24 +58,31 @@ body{
 }
 #footer a{
     float:left;
-    display: block;
-    width:120px;
-    height: 50px;
-    font-weight: 700;
+    display:block;
+    width:27%;
+    height:35px;
+    font-weight:700;
     color:orange;
-    text-align:inherit;
+    text-align: center;
     text-decoration: none;
+    padding-left:45px;
+    margin:20px;
 }
-
+/*=====MAIN=======*/
 #main{
     margin-top:120px; 
     background: url('images/blur-map.jpg');
-    background-repeat: repeat-y;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 #content{
     padding-top:2px;
     padding-bottom:30px;
 }
+/*======INFO-BOX========*/
 a.info-box{
       text-decoration : none;
       background      : rgba(255,255,255,.8);
@@ -110,6 +120,7 @@ a.info-box{
       margin-top : 25px;
       height     : 40px;
 }
+/*=======INFO-BOX-FINAL============*/
 #info-box-final{
       background-color : rgba(255, 255, 255, .8) ;
       width   : 90%;
@@ -130,7 +141,7 @@ a.info-box{
 #info-box-final h3{
       text-align : center;
 }
-
+/*======WEATHER=======*/
 img.info-box-weather-icon{
      height : 30px;
      width  : 30px!important;
